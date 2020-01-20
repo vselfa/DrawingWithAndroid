@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="selfa.v.drawingwithandroid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/drawing"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/drawing"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyViewObjectActivity"
+            android:label="@string/title_activity_my_view_object"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyCanvasActivity"
+            android:label="@string/my_canvas" />
+        <activity
+            android:name=".MyBallActivity"
+            android:label="@string/my_ball" />
+        <activity
+            android:name=".MyBallAndPaletteActivity"
+            android:label="@string/my_ball_and_palette"/>
+    </application>
+
+</manifest>
